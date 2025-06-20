@@ -1,5 +1,19 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+class Logger {
+
+    private static Logger instance;
+
+    private Logger(){
+        System.out.println("Logger Created");
+    }
+
+    public static Logger getInstance(){
+        if(instance == null){
+            instance = new Logger();
+        }
+        return instance;
+    }
+}
+
 public class Main {
     public static void main(String[] args) {
         Logger logger1 = Logger.getInstance();
