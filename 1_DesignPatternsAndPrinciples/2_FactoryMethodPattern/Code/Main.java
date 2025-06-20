@@ -1,10 +1,5 @@
-import DocumentInterfaces.ExcelDocument;
-import DocumentInterfaces.PdfDocument;
-import DocumentInterfaces.WordDocument;
-import FactoryClasses.DocumentFactory;
-import FactoryClasses.ExcelDocumentFactory;
-import FactoryClasses.PdfDocumentFactory;
-import FactoryClasses.WordDocumentFactory;
+import DocumentInterfaces.*;
+import FactoryClasses.*;
 
 public class Main {
     public static void main(String[] args) {
